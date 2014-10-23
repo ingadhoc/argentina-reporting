@@ -16,6 +16,7 @@ Argentinian Like Sale Order / Quotation Aeroo Report
     'depends': [
         'report_extended_sale',
         'l10n_ar_aeroo_base',
+        'l10n_ar_invoice_sale',
     ],
     'data': [
         'report_configuration_defaults_data.xml',
