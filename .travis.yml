@@ -22,6 +22,9 @@ addons:
       - python-serial
       - python-yaml
       - wkhtmltopdf # for odoo pdf reports (tested on sale for eg.)
+      # for aeroo
+      - cups
+      - libcups2-dev
 #     Search your packages here:
 #       https://github.com/travis-ci/apt-package-whitelist/blob/master/ubuntu-precise
 #      - wkhtmltopdf  # only add if needed and check the before_install section below
