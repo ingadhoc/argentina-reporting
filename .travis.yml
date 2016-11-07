@@ -25,6 +25,13 @@ addons:
       # for aeroo
       - cups
       - libcups2-dev
+      # FE
+      - python-dev
+      - swig
+      - libffi-dev
+      - libssl-dev
+      - python-m2crypto
+      - python-httplib2
 #     Search your packages here:
 #       https://github.com/travis-ci/apt-package-whitelist/blob/master/ubuntu-precise
 #      - wkhtmltopdf  # only add if needed and check the before_install section below
