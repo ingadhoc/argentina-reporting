@@ -16,3 +16,4 @@
 ingadhoc-reporting-engine https://github.com/ingadhoc/reporting-engine
 ingadhoc-aeroo_reports https://github.com/ingadhoc/aeroo_reports
 ingadhoc-odoo-argentina https://github.com/ingadhoc/odoo-argentina
+ingadhoc-sale https://github.com/ingadhoc/sale
