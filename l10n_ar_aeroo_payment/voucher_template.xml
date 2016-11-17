@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-    <data>
+    <data noupdate="1">
         <record id="report_extended_voucher.email_template_edi_receipt" model="email.template">
             <field name="report_template" ref="l10n_ar_aeroo_voucher.action_aeroo_report_ar_voucher"/>    
             <field name="report_name">Receipt_${(object.document_number or object.number or '').replace('/','_')}</field>
