@@ -31,8 +31,6 @@
 Argentinian Like Sale Order Integration With Portal Sale
 ========================================================
     """,
-    'author': 'ADHOC SA',
-    'website': 'www.adhoc.com.ar',
     'images': [
     ],
     'depends': [
