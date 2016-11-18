@@ -19,7 +19,7 @@
 #
 ##############################################################################
 {
-    'name': 'Argentinian Like Voucher Aeroo Report',
+    'name': 'Argentinian Like Payment Aeroo Report',
     'version': '9.0.1.0.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
@@ -28,12 +28,11 @@
     'license': 'AGPL-3',
     'summary': '',
     'description': """
-Argentinian Like Voucher Aeroo Report
+Argentinian Like Payment Aeroo Report
 =====================================
     """,
     'depends': [
-        'report_extended_account',
-        'l10n_ar_account',
+        'report_extended_payment_group',
         'l10n_ar_aeroo_base',
         # 'account_check',
         # 'account_voucher_withholding',
@@ -41,14 +40,13 @@ Argentinian Like Voucher Aeroo Report
     'external_dependencies': {
     },
     'data': [
-        'receipt_report.xml',
-        'voucher_template.xml',
+        'payment_report.xml',
     ],
     'demo': [
     ],
     'test': [
     ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }
