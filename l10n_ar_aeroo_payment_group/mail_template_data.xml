@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="report_extended_payment_group.email_template_edi_payment_group" model="mail.template">
+            <field name="report_template" ref="l10n_ar_aeroo_payment_group.action_aeroo_report_ar_payment"/>
+        </record>
+    </data>
+</openerp>
