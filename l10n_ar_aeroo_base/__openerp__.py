@@ -34,6 +34,7 @@ Base Module For Argentinian Like Aeroo Reports
     'depends': [
         'report_aeroo',
         'report_extended',
+        'report_custom_filename',
     ],
     'external_dependencies': {
     },
