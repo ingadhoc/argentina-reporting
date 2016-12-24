@@ -18,6 +18,7 @@
             <field name="use_background_image" eval="True"/>
             <field name="stock_report_type">voucher</field>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
+            <field name="download_filename">Remito ${','.join(o.voucher_ids.mapped('number'))}.pdf</field>
         </record>
 
         <!-- Iniciamos los key values sin update-->
