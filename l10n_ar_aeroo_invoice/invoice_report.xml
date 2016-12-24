@@ -20,6 +20,7 @@
             <field name="account_invoice_split_invoice" eval="False"/>
             <field name="account_invoice_lines_to_split">20</field>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
+            <field name="download_filename">Factura ${o.document_number}.pdf</field>
         </record>
 
         <!-- Iniciamos los key values porque la factura manual no toma los valores por defecto-->
