@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * l10n_ar_aeroo_invoice
+# * l10n_ar_aeroo_payment_group
 # 
 # Translators:
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2016
@@ -18,7 +18,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. module: l10n_ar_aeroo_invoice
-#: model:ir.actions.report.xml,name:l10n_ar_aeroo_invoice.action_aeroo_report_ar_invoice
-msgid "Argentinian Aeroo Invoice"
-msgstr "Factura Argentina de Aeroo"
+#. module: l10n_ar_aeroo_payment_group
+#: model:ir.actions.report.xml,name:l10n_ar_aeroo_payment_group.action_aeroo_report_ar_payment
+msgid "Argentinian Aeroo Payment"
+msgstr "Pagos Argentinos de Aeroo"
