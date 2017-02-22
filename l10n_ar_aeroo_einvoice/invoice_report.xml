@@ -19,7 +19,7 @@
             <field name="use_background_image" eval="True"/>
             <field name="account_invoice_split_invoice" eval="False"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-            <field name="download_filename">Factura ${o.document_number}.pdf</field>
+            <field name="download_filename">${o.document_type_id.report_name or 'Comprobante'} ${o.document_number}.pdf</field>
         </record>
 
         <function
