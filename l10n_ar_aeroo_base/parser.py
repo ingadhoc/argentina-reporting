@@ -3,7 +3,7 @@
 # For copyright and license notices, see __openerp__.py file in module root
 # directory
 ##############################################################################
-from openerp.addons.l10n_ar_aeroo_base import conversor
+from openerp.addons.report_extended.models import conversor
 from openerp.report.report_sxw import rml_parse
 import sys
 reload(sys)
