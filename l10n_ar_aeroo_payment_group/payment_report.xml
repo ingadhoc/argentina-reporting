@@ -17,7 +17,7 @@
             <field name="background_image" type="base64" file="l10n_ar_aeroo_payment_group/payment.png"/>
             <field name="use_background_image" eval="True"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-            <field name="download_filename">${o.receiptbook_id.name}  ${o.document_number}.pdf</field>
+            <field name="download_filename">${o.partner_type == 'supplier' and 'Órden de pago' or 'Recibo'} ${o.document_number}.pdf</field>
         </record>
 
         <function
