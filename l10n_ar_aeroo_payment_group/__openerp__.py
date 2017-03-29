@@ -20,7 +20,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Payment Aeroo Report',
-    'version': '9.0.1.0.0',
+    'version': '9.0.1.1.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
@@ -42,6 +42,7 @@ Argentinian Like Payment Aeroo Report
     'data': [
         'payment_report.xml',
         'mail_template_data.xml',
+        'account_check_deposit_report.xml'
     ],
     'demo': [
     ],
