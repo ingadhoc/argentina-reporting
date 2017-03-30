@@ -3,14 +3,14 @@
     <data>
 
 <!-- Printed Invoice -->
-<record id="action_aeroo_account_payment_deposit_report" model="ir.actions.report.xml">
-    <field name="name">Deposit Report</field>
+<record id="action_aeroo_account_payment_transfer_report" model="ir.actions.report.xml">
+    <field name="name">Transfer Report</field>
     <field name="type">ir.actions.report.xml</field>
     <field name="model">account.payment</field>
-    <field name="report_name">account_check_deposit_report</field>
+    <field name="report_name">account_transfer_report</field>
     <field name="report_type">aeroo</field>
     <field name="in_format">oo-odt</field>
-    <field name="report_rml">l10n_ar_aeroo_payment_group/account_check_deposit_report.odt</field>
+    <field name="report_rml">l10n_ar_aeroo_payment_group/account_transfer_report.odt</field>
     <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
     <field name="tml_source">file</field>
     <field name="parser_state">loc</field>
@@ -21,8 +21,8 @@
     <field eval="'action'" name="key"/>
     <field eval="'client_print_multi'" name="key2"/>
     <field eval="['account.payment']" name="models"/>
-    <field name="name">Deposit Report</field>
-    <field eval="'ir.actions.report.xml,'+str(action_aeroo_account_payment_deposit_report)" name="value"/>
+    <field name="name">Transfer Report</field>
+    <field eval="'ir.actions.report.xml,'+str(action_aeroo_account_payment_transfer_report)" name="value"/>
     <field eval="True" name="isobject"/>
     <field eval="True" name="replace"/>
 </ir_set>

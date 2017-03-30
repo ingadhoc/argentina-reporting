@@ -34,7 +34,7 @@ Argentinian Like Payment Aeroo Report
     'depends': [
         'report_extended_payment_group',
         'l10n_ar_aeroo_base',
-        # 'account_check',
+        'account_check',
         # 'account_voucher_withholding',
     ],
     'external_dependencies': {
@@ -42,7 +42,7 @@ Argentinian Like Payment Aeroo Report
     'data': [
         'payment_report.xml',
         'mail_template_data.xml',
-        'account_check_deposit_report.xml'
+        'account_transfer_report.xml'
     ],
     'demo': [
     ],
