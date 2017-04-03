@@ -1,0 +1,5 @@
+<odoo>
+    <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('purchase.report_purchase_quotation')]"/>
+
+    <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('purchase.action_report_purchase_order')]"/>
+</odoo>

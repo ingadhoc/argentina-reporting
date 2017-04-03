@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data noupdate="1">
+
+        <!-- disable default report multi action -->
+        <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('sale.report_sale_order')]"/>
+
         <record id="action_aeroo_report_ar_sale_order" model="ir.actions.report.xml">
             <field name="name">Argentinian Aeroo Sale Order</field>
             <field name="type">ir.actions.report.xml</field>
