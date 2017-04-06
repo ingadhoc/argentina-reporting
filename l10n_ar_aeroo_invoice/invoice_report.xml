@@ -4,6 +4,8 @@
 
         <!-- disable default report multi action -->
         <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('account.account_invoices')]"/>
+        <!-- disable duplicates report multi action -->
+        <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('account.account_invoice_action_report_duplicate')]"/>
 
     <!-- Printed Invoice -->
         <record id="action_aeroo_report_ar_invoice" context="{'no_key_lines':True}" model="ir.actions.report.xml">
