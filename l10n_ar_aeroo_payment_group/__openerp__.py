@@ -42,7 +42,8 @@ Argentinian Like Payment Aeroo Report
     'data': [
         'payment_report.xml',
         'mail_template_data.xml',
-        'account_transfer_report.xml'
+        'account_transfer_report.xml',
+        'report_configuration_defaults_data.xml',
     ],
     'demo': [
     ],

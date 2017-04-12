@@ -1,0 +1,19 @@
+<openerp>
+    <data noupdate="1">
+        <record model="report.configuration.default" id="l10n_ar_aeroo_base.conf_print_summary">
+            <field name="name">print_summary</field>
+            <field name="apply_to_all" eval="False"/>
+            <field name="apply_to_model_id" ref="account_payment_group.model_account_payment_group"/>            
+            <field name="override_values" eval="False"/>
+            <field name="value_type">boolean</field>
+            <field name="value_boolean" eval="True"/>
+        </record>
+
+        <record model="report.configuration.line" id="payment_print_summary">
+            <field name="report_id" ref="action_aeroo_report_ar_payment"/>
+            <field name="name">print_summary</field>
+            <field name="value_type">boolean</field>
+            <field name="value_boolean" eval="True"/>
+        </record> 
+    </data>
+</openerp>
