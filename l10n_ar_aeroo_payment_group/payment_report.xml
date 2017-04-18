@@ -11,7 +11,7 @@
             <field name="in_format">oo-odt</field>
             <field name="parser_loc">l10n_ar_aeroo_base/parser.py</field>
             <field name="parser_state">loc</field>
-            <field name="report_rml">l10n_ar_aeroo_payment_group/payment.odt</field>
+            <field name="report_rml">l10n_ar_aeroo_payment_group/payment_2.odt</field>
             <field name="tml_source">file</field>
             <field name="print_logo">company_logo</field> <!-- Or 'company_logo' or ''  -->
             <field name="background_image" type="base64" file="l10n_ar_aeroo_payment_group/payment.png"/>

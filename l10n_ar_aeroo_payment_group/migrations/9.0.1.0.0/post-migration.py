@@ -26,5 +26,6 @@ from openupgradelib import openupgrade
 @openupgrade.migrate()
 def migrate(cr, version):
     # because this module is renamed, we need to inforce load of this data
+    # not necesary on report data because report has a new xml id
     openupgrade.load_data(
         cr, 'l10n_ar_aeroo_payment_group', 'mail_template_data.xml')
