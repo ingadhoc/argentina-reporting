@@ -27,4 +27,4 @@ from openupgradelib import openupgrade
 def migrate(cr, version):
     # because this module is renamed, we need to inforce load of this data
     openupgrade.load_data(
-        cr, 'l10n_ar_aeroo_sale', 'migrations/9.0.1.2.0/mig_data.xml')
+        cr, 'l10n_ar_aeroo_invoice', 'migrations/9.0.1.4.0/mig_data.xml')

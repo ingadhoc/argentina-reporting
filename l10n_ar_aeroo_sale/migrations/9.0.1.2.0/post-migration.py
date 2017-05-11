@@ -28,4 +28,4 @@ def migrate(cr, version):
     # because we add the disable of this action on this version
     # and it only works on install, we force it
     openupgrade.load_data(
-        cr, 'l10n_ar_aeroo_sale', 'migrations/9.0.1.1.0/mig_data.xml')
+        cr, 'l10n_ar_aeroo_sale', 'migrations/9.0.1.2.0/mig_data.xml')
