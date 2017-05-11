@@ -1,0 +1,5 @@
+<odoo>
+    <record id="action_aeroo_report_ar_stock_picking" context="{'no_key_lines':True}" model="ir.actions.report.xml">
+        <field name="process_sep" eval="True"/>
+    </record>
+</odoo>
