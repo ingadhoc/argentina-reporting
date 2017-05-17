@@ -5,6 +5,7 @@
 ##############################################################################
 from openerp.addons.report_extended.models import conversor
 from openerp.report.report_sxw import rml_parse
+import datetime
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -80,6 +81,7 @@ class Parser(rml_parse):
             'number_to_string': self.number_to_string,
             'partner_address': self.partner_address,
             'net_price': self.net_price,
+            'datetime': datetime,
             'context': context,
         })
 
