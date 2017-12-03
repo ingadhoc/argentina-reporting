@@ -5,6 +5,7 @@
 ##############################################################################
 from openerp.addons.report_extended.models import conversor
 from openerp.report.report_sxw import rml_parse
+from openerp import tools
 import datetime
 import sys
 reload(sys)
@@ -83,6 +84,7 @@ class Parser(rml_parse):
             'net_price': self.net_price,
             'datetime': datetime,
             'context': context,
+            'tools': tools,
         })
 
     def net_price(self, gross_price, discount):
