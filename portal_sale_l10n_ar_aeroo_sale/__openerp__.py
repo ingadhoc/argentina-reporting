@@ -20,7 +20,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Sale Order Integration With Portal Sale',
-    'version': '9.0.1.0.0',
+    'version': '9.0.1.1.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
@@ -35,7 +35,7 @@ Argentinian Like Sale Order Integration With Portal Sale
     ],
     'depends': [
         'l10n_ar_aeroo_sale',
-        'l10n_ar_aeroo_invoice',
+        'l10n_ar_aeroo_einvoice',
         'portal_sale',
     ],
     'external_dependencies': {
