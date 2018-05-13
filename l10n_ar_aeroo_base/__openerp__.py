@@ -45,7 +45,7 @@ Base Module For Argentinian Like Aeroo Reports
     ],
     'test': [
     ],
-    'installable': True,
+    'installable': False,
     'auto_install': False,
     'application': False,
 }
