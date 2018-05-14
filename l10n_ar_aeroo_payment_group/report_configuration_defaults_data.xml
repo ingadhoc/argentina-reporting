@@ -1,4 +1,4 @@
-<openerp>
+<odoo>
     <data noupdate="1">
         <record model="report.configuration.default" id="l10n_ar_aeroo_base.conf_print_summary">
             <field name="name">print_summary</field>
@@ -16,4 +16,4 @@
             <field name="value_boolean" eval="True"/>
         </record> 
     </data>
-</openerp>
+</odoo>

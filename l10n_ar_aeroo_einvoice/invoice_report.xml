@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
     <!-- Printed Invoice -->
         <record id="action_aeroo_report_ar_einvoice" context="{'no_key_lines':True}" model="ir.actions.report.xml">
@@ -29,4 +29,4 @@
             model="ir.actions.report.xml"
             name="update_lines_that_apply"/>
     </data>
-</openerp>
+</odoo>

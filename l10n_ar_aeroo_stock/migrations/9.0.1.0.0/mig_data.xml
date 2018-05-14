@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <record id="action_aeroo_report_ar_stock_picking" context="{'no_key_lines':True}" model="ir.actions.report.xml">
             <field name="report_rml">l10n_ar_aeroo_stock/stock_picking.odt</field>
@@ -8,4 +8,4 @@
             <field name="download_filename">Remito ${','.join(o.voucher_ids.mapped('number'))}.pdf</field>
         </record>
     </data>
-</openerp>
+</odoo>

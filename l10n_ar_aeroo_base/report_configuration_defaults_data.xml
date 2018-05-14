@@ -1,4 +1,4 @@
-<openerp>
+<odoo>
     <data noupdate="1">
         <!-- key shared by aeroo reports and qweb -->
         <record model="report.configuration.default" id="report.report_configuration_defaults_1">
@@ -65,4 +65,4 @@
             <field name="value_boolean" eval="False"/>
         </record>         
     </data>
-</openerp>
+</odoo>

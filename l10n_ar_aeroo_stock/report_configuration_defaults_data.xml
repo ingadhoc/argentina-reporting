@@ -1,4 +1,4 @@
-<openerp>
+<odoo>
     <data noupdate="1">
         <record model="report.configuration.default" id="report_configuration_defaults_print_warranty">
             <field name="name">print_warranty</field>
@@ -41,4 +41,4 @@
             <field name="value_text">REMITO</field>
         </record> 
     </data>
-</openerp>
+</odoo>
