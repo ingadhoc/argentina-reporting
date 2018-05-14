@@ -3,9 +3,9 @@
 # For copyright and license notices, see __manifest__.py file in module root
 # directory
 ##############################################################################
-from openerp.addons.report_extended.models import conversor
-from openerp.report.report_sxw import rml_parse
-from openerp import tools
+from odoo.addons.report_extended.models import conversor
+from odoo.report.report_sxw import rml_parse
+from odoo import tools
 import datetime
 import sys
 reload(sys)
