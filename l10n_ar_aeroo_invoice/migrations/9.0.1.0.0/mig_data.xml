@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <record id="action_aeroo_report_ar_invoice" context="{'no_key_lines':True}" model="ir.actions.report.xml">
             <field name="report_rml">l10n_ar_aeroo_invoice/invoice.odt</field>
@@ -8,4 +8,4 @@
             <field name="download_filename">Factura ${o.document_number}.pdf</field>
         </record>
     </data>
-</openerp>
+</odoo>

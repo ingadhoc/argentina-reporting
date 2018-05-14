@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <record id="action_aeroo_report_ar_purchase_order" context="{'no_key_lines':True}" model="ir.actions.report.xml">
             <field name="report_rml">l10n_ar_aeroo_purchase/purchase_order.odt</field>
@@ -8,4 +8,4 @@
             <field name="download_filename">Cotizacion de Compra ${o.name}.pdf</field>
         </record>
     </data>
-</openerp>
+</odoo>

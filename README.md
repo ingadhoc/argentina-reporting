@@ -1,4 +1,4 @@
-[![Runbot Status](http://runbot.adhoc.com.ar/runbot/badge/flat/31/11.0.svg)](http://runbot.adhoc.com.ar/runbot/repo/github-com-ingadhoc-argentina-reporting-31)
+[![Runbot Status](http://runbot.adhoc.com.ar/runbot/badge/flat/26/11.0.svg)](http://runbot.adhoc.com.ar/runbot/repo/github-com-ingadhoc-argentina-reporting-26)
 [![Build Status](https://travis-ci.org/ingadhoc/argentina-reporting.svg?branch=11.0)](https://travis-ci.org/ingadhoc/argentina-reporting)
 [![Coverage Status](https://coveralls.io/repos/ingadhoc/argentina-reporting/badge.png?branch=11.0)](https://coveralls.io/r/ingadhoc/argentina-reporting?branch=11.0)
 [![Code Climate](https://codeclimate.com/github/ingadhoc/argentina-reporting/badges/gpa.svg)](https://codeclimate.com/github/ingadhoc/argentina-reporting)

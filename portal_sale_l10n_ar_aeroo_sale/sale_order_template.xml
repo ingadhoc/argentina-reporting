@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
 
     <record id="portal_sale.email_template_edi_sale" model="mail.template">
@@ -12,4 +12,4 @@
 
     </data>
 
-</openerp>
+</odoo>

@@ -1,4 +1,4 @@
-<openerp>
+<odoo>
     <data noupdate="1">
         <record model="report.configuration.default" id="report_configuration_defaults_print_validity">
             <field name="name">print_validity</field>
@@ -41,4 +41,4 @@
             <field name="value_boolean" eval="False"/>
         </record> 
     </data>
-</openerp>
+</odoo>
