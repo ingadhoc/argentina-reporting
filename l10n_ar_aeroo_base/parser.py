@@ -3,26 +3,22 @@
 # directory
 ##############################################################################
 from odoo.addons.report_extended.models import conversor
-from odoo.report.report_sxw import rml_parse
-from odoo import tools
+from odoo import tools, models
 import datetime
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 
-class Parser(rml_parse):
+class ReportSampleParser(models.AbstractModel):
+    _inherit = 'report.report_aeroo.abstract'
 
-    def __init__(self, cr, uid, name, context):
-        super(self.__class__, self).__init__(cr, uid, name, context)
+    _name = 'report.sample_report'
+
+    def __init__(self):
+        super(self.__class__, self).__init__()
 
         # We search for the report
-        report_obj = self.pool['ir.actions.report.xml']
-        report_id = report_obj.search(
-            cr, uid, [('report_name', '=', name)], context=context)
-        report = report_obj.browse(cr, uid, report_id, context=context)
-        if isinstance(report, list):
-            report = report[0]
+        report = self.env['ir.actions.report.xml'].browse(
+            [('report_name', '=', name)])
+        context = self._context
 
         # We add all the key-value pairs of the report configuration
         # We add keys so that you can use it in a safe way in reports
@@ -46,9 +42,8 @@ class Parser(rml_parse):
         company = False
         # We add the company of the active object
         if 'active_model' in context and 'active_id' in context:
-            active_model_obj = self.pool.get(context['active_model'])
-            active_object = active_model_obj.browse(
-                cr, uid, context['active_id'], context=context)
+            active_object = self.env[context['active_model']].browse(
+                context['active_id'])
             if hasattr(
                     active_object, 'company_id') and active_object.company_id:
                 company = active_object.company_id
