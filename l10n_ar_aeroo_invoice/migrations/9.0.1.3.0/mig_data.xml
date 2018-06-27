@@ -1,3 +1,0 @@
-<odoo>
-    <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('account.account_invoice_action_report_duplicate')]"/>
-</odoo>

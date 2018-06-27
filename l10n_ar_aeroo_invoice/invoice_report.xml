@@ -3,12 +3,12 @@
     <data noupdate="1">
 
         <!-- disable default report multi action -->
-        <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('account.account_invoices')]"/>
+        <!-- <function model="ir.actions.report" name="unlink_action" eval="[ ref('account.account_invoices')]"/> -->
         <!-- disable duplicates report multi action -->
-        <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('account.account_invoice_action_report_duplicate')]"/>
+        <!-- <function model="ir.actions.report" name="unlink_action" eval="[ ref('account.account_invoice_action_report_duplicate')]"/> -->
 
     <!-- Printed Invoice -->
-        <record id="action_aeroo_report_ar_invoice" context="{'no_key_lines':True}" model="ir.actions.report.xml">
+        <record id="action_aeroo_report_ar_invoice" context="{'no_key_lines':True}" model="ir.actions.report">
             <field name="name">Argentinian Aeroo Invoice</field>
             <field name="model">account.invoice</field>
             <field name="sequence" eval="7"/>  

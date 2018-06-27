@@ -3,7 +3,7 @@
     <data>
 
 <!-- Printed Invoice -->
-<record id="action_aeroo_account_payment_transfer_report" model="ir.actions.report.xml">
+<record id="action_aeroo_account_payment_transfer_report" model="ir.actions.report">
     <field name="name">Transfer Report</field>
     <field name="model">account.payment</field>
     <field name="report_name">account_transfer_report</field>
@@ -21,7 +21,7 @@
     <field eval="'client_print_multi'" name="key2"/>
     <field eval="['account.payment']" name="models"/>
     <field name="name">Transfer Report</field>
-    <field eval="'ir.actions.report.xml,'+str(action_aeroo_account_payment_transfer_report)" name="value"/>
+    <field eval="'ir.actions.report,'+str(action_aeroo_account_payment_transfer_report)" name="value"/>
     <field eval="True" name="isobject"/>
     <field eval="True" name="replace"/>
 </ir_set>

@@ -1,3 +1,0 @@
-<odoo>
-    <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('sale.report_sale_order')]"/>
-</odoo>

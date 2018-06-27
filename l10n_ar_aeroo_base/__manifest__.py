@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Base Module For Argentinian Like Aeroo Reports',
-    'version': '9.0.1.0.0',
+    'version': '11.0.1.0.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
@@ -33,7 +33,6 @@ Base Module For Argentinian Like Aeroo Reports
     'depends': [
         'report_aeroo',
         'report_extended',
-        'report_custom_filename',
     ],
     'external_dependencies': {
     },
@@ -42,9 +41,7 @@ Base Module For Argentinian Like Aeroo Reports
     ],
     'demo': [
     ],
-    'test': [
-    ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }

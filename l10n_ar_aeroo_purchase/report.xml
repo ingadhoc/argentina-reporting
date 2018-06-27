@@ -3,11 +3,11 @@
     <data noupdate="1">
 
         <!-- disable default report multi actions -->
-        <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('purchase.report_purchase_quotation')]"/>
+        <function model="ir.actions.report" name="unlink_action" eval="[ ref('purchase.report_purchase_quotation')]"/>
 
-        <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('purchase.action_report_purchase_order')]"/>
+        <function model="ir.actions.report" name="unlink_action" eval="[ ref('purchase.action_report_purchase_order')]"/>
 
-        <record id="action_aeroo_report_ar_purchase_order" model="ir.actions.report.xml">
+        <record id="action_aeroo_report_ar_purchase_order" model="ir.actions.report">
             <field name="name">Argentinian Aeroo Purchase Order</field>
             <field name="model">purchase.order</field>
             <field name="sequence" eval="7"/>
@@ -30,7 +30,7 @@
         <function
             eval="([ref('action_aeroo_report_ar_purchase_order')])"
             id="update_lines_ar_receipt"
-            model="ir.actions.report.xml"
+            model="ir.actions.report"
             name="update_lines_that_apply"/>    
     </data>
 </odoo>

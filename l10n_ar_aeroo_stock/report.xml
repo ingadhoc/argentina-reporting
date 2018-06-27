@@ -4,10 +4,10 @@
 
 
         <!-- disable default report multi action -->
-        <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('stock.action_report_delivery')]"/>
-        <function model="ir.actions.report.xml" name="unlink_action" eval="[ ref('stock.action_report_picking')]"/>
+        <function model="ir.actions.report" name="unlink_action" eval="[ ref('stock.action_report_delivery')]"/>
+        <function model="ir.actions.report" name="unlink_action" eval="[ ref('stock.action_report_picking')]"/>
 
-        <record id="action_aeroo_report_ar_stock_picking" model="ir.actions.report.xml">
+        <record id="action_aeroo_report_ar_stock_picking" model="ir.actions.report">
             <field name="name">Argentinian Aeroo Picking Order</field>
             <field name="model">stock.picking</field>
             <field name="sequence" eval="7"/>
@@ -31,7 +31,7 @@
         <function
             eval="([ref('action_aeroo_report_ar_stock_picking')])"
             id="update_lines_ar_receipt"
-            model="ir.actions.report.xml"
+            model="ir.actions.report"
             name="update_lines_that_apply"/>    
     </data>
 </odoo>
