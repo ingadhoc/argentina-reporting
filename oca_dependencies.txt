@@ -1,5 +1,4 @@
-# ingadhoc-reporting-engine https://github.com/ingadhoc/reporting-engine
-# ingadhoc-aeroo_reports https://github.com/ingadhoc/aeroo_reports
-# ingadhoc-odoo-argentina https://github.com/ingadhoc/odoo-argentina
-# ingadhoc-argentina-sale https://github.com/ingadhoc/argentina-sale
+ingadhoc-reporting-engine https://github.com/ingadhoc/reporting-engine
+ingadhoc-odoo-argentina https://github.com/ingadhoc/odoo-argentina
+ingadhoc-argentina-sale https://github.com/ingadhoc/argentina-sale
 # reporting-engine
