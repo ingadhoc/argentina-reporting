@@ -19,17 +19,13 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Stock Picking Aeroo Report',
-    'version': '9.0.1.2.0',
+    'version': '11.0.1.0.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
     'website': 'www.adhoc.com.ar',
     'license': 'AGPL-3',
     'summary': '',
-    'description': """
-Argentinian Like Stock Picking Aeroo Report
-===========================================
-    """,
     'depends': [
         'report_extended_stock',
         'l10n_ar_aeroo_base',

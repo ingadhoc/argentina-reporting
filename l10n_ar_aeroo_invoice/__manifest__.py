@@ -26,10 +26,6 @@
     'website': 'www.adhoc.com.ar',
     'license': 'AGPL-3',
     'summary': '',
-    'description': """
-Argentinian Like Invoice Aeroo Report
-=====================================
-    """,
     'depends': [
         'report_extended_account',
         'l10n_ar_account',

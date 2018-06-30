@@ -26,10 +26,6 @@
     'website': 'www.adhoc.com.ar',
     'license': 'AGPL-3',
     'summary': '',
-    'description': """
-Argentinian Like Payment Aeroo Report
-=====================================
-    """,
     'depends': [
         'report_extended_payment_group',
         'l10n_ar_aeroo_base',

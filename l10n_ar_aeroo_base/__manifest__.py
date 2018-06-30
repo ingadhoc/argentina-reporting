@@ -26,10 +26,6 @@
     'website': 'www.adhoc.com.ar',
     'license': 'AGPL-3',
     'summary': '',
-    'description': """
-Base Module For Argentinian Like Aeroo Reports
-==============================================
-    """,
     'depends': [
         'report_aeroo',
         'report_extended',

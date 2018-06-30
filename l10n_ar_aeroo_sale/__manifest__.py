@@ -26,13 +26,6 @@
     'website': 'www.adhoc.com.ar',
     'license': 'AGPL-3',
     'summary': '',
-    'description': """
-Argentinian Like Sale Order / Quotation Aeroo Report
-====================================================
-Parameters requirements:
-* total_discount: require module "sale_pricelist_discount"
-* print_validity: require module "sale_order_validity"
-    """,
     'depends': [
         'report_extended_sale',
         'l10n_ar_aeroo_base',

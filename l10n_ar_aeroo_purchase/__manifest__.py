@@ -26,10 +26,6 @@
     'website': 'www.adhoc.com.ar',
     'license': 'AGPL-3',
     'summary': '',
-    'description': """
-Argentinian Like Purchase Order Aeroo Report
-============================================
-    """,
     'depends': [
         'report_extended_purchase',
         'l10n_ar_aeroo_base',
