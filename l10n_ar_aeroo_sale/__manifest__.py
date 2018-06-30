@@ -19,20 +19,13 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Sale Order Aeroo Report',
-    'version': '9.0.1.2.0',
+    'version': '11.0.1.0.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
     'website': 'www.adhoc.com.ar',
     'license': 'AGPL-3',
     'summary': '',
-    'description': """
-Argentinian Like Sale Order / Quotation Aeroo Report
-====================================================
-Parameters requirements:
-* total_discount: require module "sale_pricelist_discount"
-* print_validity: require module "sale_order_validity"
-    """,
     'depends': [
         'report_extended_sale',
         'l10n_ar_aeroo_base',
@@ -47,9 +40,7 @@ Parameters requirements:
     ],
     'demo': [
     ],
-    'test': [
-    ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }
