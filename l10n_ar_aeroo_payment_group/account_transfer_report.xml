@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<odoo noupdate="1">
 
 <!-- Printed Invoice -->
 <record id="action_aeroo_account_payment_transfer_report" model="ir.actions.report">
@@ -11,16 +11,8 @@
     <field name="report_file">l10n_ar_aeroo_payment_group/account_transfer_report.odt</field>
     <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
     <field name="tml_source">file</field>
+    <field name="binding_model_id" ref="account.model_account_payment"/>
+    <field name="binding_type">report</field>
 </record>
-
-<ir_set>
-    <field eval="'action'" name="key"/>
-    <field eval="'client_print_multi'" name="key2"/>
-    <field eval="['account.payment']" name="models"/>
-    <field name="name">Transfer Report</field>
-    <field eval="'ir.actions.report,'+str(action_aeroo_account_payment_transfer_report)" name="value"/>
-    <field eval="True" name="isobject"/>
-    <field eval="True" name="replace"/>
-</ir_set>
 
 </odoo>
