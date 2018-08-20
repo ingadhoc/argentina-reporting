@@ -14,7 +14,7 @@
         <field name="background_image" type="base64" file="l10n_ar_aeroo_payment_group/payment.png"/>
         <field name="use_background_image" eval="True"/>
         <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-        <field name="print_report_name">(object.partner_type == 'supplier' and 'Órden de pago' or 'Recibo') + ' ' + object.document_number</field>
+        <field name="print_report_name">(object.partner_type == 'supplier' and 'Orden de pago' or 'Recibo') + ' ' + object.document_number</field>
     </record>
 
     <function
