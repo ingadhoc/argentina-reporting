@@ -1,0 +1,5 @@
+<odoo noupdate="1">
+    <record id="action_aeroo_report_ar_stock_picking" context="{'no_key_lines':True}" model="ir.actions.report">
+        <field name="print_report_name">'Remito ' + (','.join(object.voucher_ids.mapped('number')))</field>
+    </record>
+</odoo>

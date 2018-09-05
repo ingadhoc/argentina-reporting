@@ -4,7 +4,7 @@
         <field name="name">Argentinian Aeroo Payment</field>
         <field name="model">account.payment.group</field>
         <field name="report_name">aeroo_report_ar_payment</field>
-        <field name="sequence" eval="7"/>  
+        <field name="sequence" eval="7"/>
         <field name="report_type">aeroo</field>
         <field name="in_format">oo-odt</field>
         <field name="report_file">l10n_ar_aeroo_payment_group/payment_2.odt</field>
