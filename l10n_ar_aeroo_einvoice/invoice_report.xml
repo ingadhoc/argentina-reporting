@@ -17,7 +17,7 @@
             <field name="use_background_image" eval="True"/>
             <field name="account_invoice_split_invoice" eval="False"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-            <field name="print_report_name">(object.state in ['proforma', 'proforma2'] and 'PROFORMA' or (object.document_type_id.report_name or 'Comprobante')) + " " + (object.document_number or '')</field>
+            <field name="print_report_name">(object.document_type_id.report_name or 'Comprobante') + " " + (object.document_number or '')</field>
         </record>
 
         <function
