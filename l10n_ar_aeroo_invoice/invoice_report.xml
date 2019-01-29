@@ -12,7 +12,7 @@
     <record id="action_aeroo_report_ar_invoice" context="{'no_key_lines':True}" model="ir.actions.report">
         <field name="name">Argentinian Aeroo Invoice</field>
         <field name="model">account.invoice</field>
-        <field name="sequence" eval="7"/>  
+        <field name="sequence" eval="7"/>
         <field name="report_name">aeroo_report_ar_invoice</field>
         <field name="report_type">aeroo</field>
         <field name="in_format">oo-odt</field>
@@ -25,7 +25,7 @@
         <field name="account_invoice_split_invoice" eval="False"/>
         <field name="account_invoice_lines_to_split">20</field>
         <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-        <field name="print_report_name">(object.document_type_id.report_name or 'Comprobante') + " " + (object.document_number or '')</field>
+        <field name="print_report_name">(object.state == 'draft' and 'PROFORMA' or (object.document_type_id.report_name or 'Comprobante')) + " " + (object.document_number or '')</field>
     </record>
 
     <!-- Iniciamos los key values porque la factura manual no toma los valores por defecto-->
