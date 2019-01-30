@@ -13,7 +13,7 @@
     </record>
 
     <record id="action_aeroo_report_ar_stock_picking" model="ir.actions.report">
-        <field name="name">Argentinian Aeroo Picking Order</field>
+        <field name="name">Comprobante de Entrega</field>
         <field name="model">stock.picking</field>
         <field name="sequence" eval="7"/>
         <field name="report_name">aeroo_report_ar_picking</field>
@@ -27,12 +27,38 @@
         <field name="use_background_image" eval="True"/>
         <field name="stock_report_type">voucher</field>
         <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-        <field name="print_report_name">'Remito ' + (','.join(object.voucher_ids.mapped('number')))</field>
+        <field name="print_report_name">'Comprobante de Entrega ' + (','.join(object.voucher_ids.mapped('number')))</field>
     </record>
 
     <!-- Iniciamos los key values sin update-->
     <function
         eval="([ref('action_aeroo_report_ar_stock_picking')])"
+        id="update_lines_ar_receipt"
+        model="ir.actions.report"
+        name="update_lines_that_apply"/>
+
+    <!-- Para remito pre-impreso -->
+    <record id="action_aeroo_report_ar_stock_remito" model="ir.actions.report">
+        <field name="name">Remito pre-impreso</field>
+        <field name="model">stock.picking</field>
+        <field name="sequence" eval="10"/>
+        <field name="report_name">aeroo_report_ar_remito</field>
+        <field name="report_type">aeroo</field>
+        <field name="in_format">oo-odt</field>
+        <field name="report_data" type="base64" file="l10n_ar_aeroo_stock/stock_picking.odt"/>
+        <field name="tml_source">database</field>
+        <field name="print_logo">company_logo</field> <!-- Or 'company_logo' or ''  -->
+        <field name="background_image" type="base64" file="l10n_ar_aeroo_stock/stock_picking.png"/>
+        <field name="process_sep" eval="True"/>
+        <field name="use_background_image" eval="True"/>
+        <field name="stock_report_type">voucher</field>
+        <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
+        <field name="print_report_name">'Remito ' + (','.join(object.voucher_ids.mapped('number')))</field>
+    </record>
+
+    <!-- Iniciamos los key values sin update-->
+    <function
+        eval="([ref('action_aeroo_report_ar_stock_remito')])"
         id="update_lines_ar_receipt"
         model="ir.actions.report"
         name="update_lines_that_apply"/>
