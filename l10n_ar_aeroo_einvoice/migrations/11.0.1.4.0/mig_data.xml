@@ -1,0 +1,5 @@
+<odoo noupdate="1">
+    <record id="action_aeroo_report_ar_einvoice" context="{'no_key_lines':True}" model="ir.actions.report">
+        <field name="print_report_name">(object.state == 'draft' and 'PROFORMA' or (object.document_type_id.report_name or 'Comprobante')) + " " + (object.document_number or '')</field>
+    </record>
+</odoo>

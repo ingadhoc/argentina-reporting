@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Invoice Aeroo Report',
-    'version': '11.0.1.3.0',
+    'version': '11.0.1.4.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
