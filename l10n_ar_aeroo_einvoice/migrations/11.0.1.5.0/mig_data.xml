@@ -1,0 +1,7 @@
+<odoo>
+    <function
+            eval="([ref('action_aeroo_report_ar_einvoice')])"
+            id="update_lines_ar_invoice"
+            model="ir.actions.report"
+            name="update_lines_that_apply"/>
+</odoo>
