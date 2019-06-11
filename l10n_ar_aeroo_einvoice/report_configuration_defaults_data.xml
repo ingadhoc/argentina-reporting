@@ -21,4 +21,11 @@
         <field name="value_type">boolean</field>
         <field name="value_boolean" eval="True"/>
     </record>
+    <record model="report.configuration.default" id="report_conf_print_contact_name">
+        <field name="name">print_contact_name</field>
+        <field name="apply_to_all" eval="True"/>
+        <field name="override_values" eval="False"/>
+        <field name="value_type">boolean</field>
+        <field name="value_boolean" eval="False"/>
+    </record>
 </odoo>
