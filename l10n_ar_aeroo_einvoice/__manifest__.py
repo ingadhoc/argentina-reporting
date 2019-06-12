@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Electronic Invoice Aeroo Report',
-    'version': '11.0.1.5.0',
+    'version': '11.0.1.6.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
