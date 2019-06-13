@@ -1,0 +1,6 @@
+<odoo>
+    <record model="report.configuration.default" id="report_conf_print_contact_name">
+        <field name="apply_to_all" eval="False"/>
+        <field name="apply_to_model_id" ref="account.model_account_invoice"/>
+    </record>
+</odoo>
