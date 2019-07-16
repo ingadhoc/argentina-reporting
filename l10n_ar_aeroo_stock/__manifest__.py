@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Stock Picking Aeroo Report',
-    'version': '11.0.1.4.0',
+    'version': '12.0.1.0.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
@@ -41,7 +41,7 @@
     ],
     'test': [
     ],
-    'installable': True,
+    'installable': False,
     'auto_install': False,
     'application': False,
 }
