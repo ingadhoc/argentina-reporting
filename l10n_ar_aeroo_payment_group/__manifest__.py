@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Payment Aeroo Report',
-    'version': '11.0.1.2.0',
+    'version': '12.0.1.0.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
@@ -42,7 +42,7 @@
     ],
     'demo': [
     ],
-    'installable': True,
+    'installable': False,
     'auto_install': False,
     'application': False,
 }
