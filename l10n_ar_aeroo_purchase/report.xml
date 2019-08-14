@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="1">
 
-    <!-- disable default report multi actions -->
-    <record id="purchase.action_report_purchase_order" model="ir.actions.report">
-        <field name="binding_model_id" eval="False"/>
-    </record>
-    <record id="purchase.report_purchase_quotation" model="ir.actions.report">
-        <field name="binding_model_id" eval="False"/>
-    </record>
-
     <record id="action_aeroo_report_ar_purchase_order" model="ir.actions.report">
-        <field name="name">Argentinian Aeroo Purchase Order</field>
+        <field name="name">Request for Quotation / Purchase Order (AR)</field>
         <field name="model">purchase.order</field>
         <field name="sequence" eval="7"/>
+        <field name="binding_type">report</field>
+        <field name="binding_model_id" ref="purchase.model_purchase_order"/>
         <field name="report_name">aeroo_report_ar_purchase_order</field>
         <field name="report_type">aeroo</field>
         <field name="in_format">oo-odt</field>
@@ -31,5 +25,5 @@
         eval="([ref('action_aeroo_report_ar_purchase_order')])"
         id="update_lines_ar_receipt"
         model="ir.actions.report"
-        name="update_lines_that_apply"/>    
+        name="update_lines_that_apply"/>
 </odoo>

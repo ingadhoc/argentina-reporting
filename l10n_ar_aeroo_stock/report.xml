@@ -6,11 +6,6 @@
         <field name="binding_model_id" eval="False"/>
         <field name="stock_report_type">picking_list</field>
     </record>
-    <!-- TODO remove on v12 -->
-    <record id="stock.action_report_picking" model="ir.actions.report">
-        <field name="binding_model_id" ref="stock.model_stock_picking" />
-        <field name="stock_report_type">picking_list</field>
-    </record>
 
     <record id="action_aeroo_report_ar_stock_picking" model="ir.actions.report">
         <field name="name">Comprobante de Entrega</field>

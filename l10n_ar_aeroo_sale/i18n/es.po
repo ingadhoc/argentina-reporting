@@ -20,5 +20,5 @@ msgstr ""
 
 #. module: l10n_ar_aeroo_sale
 #: model:ir.actions.report,name:l10n_ar_aeroo_sale.action_aeroo_report_ar_sale_order
-msgid "Argentinian Aeroo Sale Order"
-msgstr "Orden de Venta Argentina de Aeroo"
+msgid "Quotation / Order (AR)"
+msgstr "Presupuesto / Pedido (AR)"
