@@ -1,5 +1,0 @@
-<odoo noupdate="1">
-    <record id="action_aeroo_report_ar_purchase_order" context="{'no_key_lines':True}" model="ir.actions.report">
-        <field name="print_report_name">(object.state in ['purchase','done'] and 'Orden de Compra' or 'Pedido de Presupuesto') + ' ' + object.name</field>
-    </record>
-</odoo>

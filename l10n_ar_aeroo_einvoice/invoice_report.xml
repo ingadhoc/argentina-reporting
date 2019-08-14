@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
-    <!-- Printed Invoice -->
         <record id="action_aeroo_report_ar_einvoice" context="{'no_key_lines':True}" model="ir.actions.report">
-            <field name="name">Argentinian Aeroo Electronic Invoice</field>
+            <field name="name">Factura Electrónica</field>
             <field name="model">account.invoice</field>
             <field name="sequence" eval="5"/>
+            <field name="binding_type">report</field>
+            <field name="binding_model_id" ref="account.model_account_invoice"/>
             <field name="report_name">aeroo_report_ar_einvoice</field>
             <field name="report_type">aeroo</field>
             <field name="in_format">oo-odt</field>
