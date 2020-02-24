@@ -2,21 +2,21 @@
     <record model="report.configuration.default" id="conf_line_force_code">
         <field name="name">force_code</field>
         <field name="apply_to_all" eval="False"/>
-        <field name="apply_to_model_id" ref="account.model_account_invoice"/>
+        <field name="apply_to_model_id" ref="account.model_account_move"/>
         <field name="override_values" eval="False"/>
         <field name="value_type">text</field>
     </record>
     <record model="report.configuration.default" id="conf_line_force_title">
         <field name="name">force_title</field>
         <field name="apply_to_all" eval="False"/>
-        <field name="apply_to_model_id" ref="account.model_account_invoice"/>
+        <field name="apply_to_model_id" ref="account.model_account_move"/>
         <field name="override_values" eval="False"/>
         <field name="value_type">text</field>
     </record>
     <record model="report.configuration.default" id="conf_line_print_code">
         <field name="name">print_code</field>
         <field name="apply_to_all" eval="False"/>
-        <field name="apply_to_model_id" ref="account.model_account_invoice"/>
+        <field name="apply_to_model_id" ref="account.model_account_move"/>
         <field name="override_values" eval="False"/>
         <field name="value_type">boolean</field>
         <field name="value_boolean" eval="True"/>
@@ -24,7 +24,7 @@
     <record model="report.configuration.default" id="report_conf_print_contact_name">
         <field name="name">print_contact_name</field>
         <field name="apply_to_all" eval="False"/>
-        <field name="apply_to_model_id" ref="account.model_account_invoice"/>
+        <field name="apply_to_model_id" ref="account.model_account_move"/>
         <field name="override_values" eval="False"/>
         <field name="value_type">boolean</field>
         <field name="value_boolean" eval="False"/>

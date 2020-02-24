@@ -23,7 +23,6 @@
 
     <function
         eval="([ref('action_aeroo_report_ar_sale_order')])"
-        id="update_lines_ar_receipt"
         model="ir.actions.report"
         name="update_lines_that_apply"/>
 

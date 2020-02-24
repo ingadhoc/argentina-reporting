@@ -19,7 +19,6 @@
 
     <function
         eval="([ref('action_aeroo_report_ar_payment')])"
-        id="update_lines_ar_payment"
         model="ir.actions.report"
         name="update_lines_that_apply"/>
 </odoo>
