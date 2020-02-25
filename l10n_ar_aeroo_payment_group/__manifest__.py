@@ -30,6 +30,7 @@
         'report_extended_payment_group',
         'l10n_ar_aeroo_base',
         'account_check',
+        'account_withholding',
         # 'account_voucher_withholding',
     ],
     'external_dependencies': {
