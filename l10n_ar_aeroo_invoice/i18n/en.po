@@ -21,8 +21,3 @@ msgstr ""
 #: model:ir.actions.report.xml,name:l10n_ar_aeroo_invoice.action_aeroo_report_ar_invoice
 msgid "Argentinian Aeroo Invoice"
 msgstr "Argentinian Aeroo Invoice"
-
-#. module: l10n_ar_aeroo_invoice
-#: field:ir.actions.report.xml,document_type_ids:0
-msgid "Document Types"
-msgstr "Document Types"

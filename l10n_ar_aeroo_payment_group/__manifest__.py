@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Payment Aeroo Report',
-    'version': '12.0.1.0.0',
+    'version': "13.0.1.0.0",
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
@@ -30,7 +30,7 @@
         'report_extended_payment_group',
         'l10n_ar_aeroo_base',
         'account_check',
-        # 'account_voucher_withholding',
+        'account_withholding',
     ],
     'external_dependencies': {
     },
@@ -42,7 +42,7 @@
     ],
     'demo': [
     ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }

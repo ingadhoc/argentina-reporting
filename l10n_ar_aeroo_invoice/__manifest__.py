@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Invoice Aeroo Report',
-    'version': '12.0.1.0.0',
+    'version': "13.0.1.0.0",
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
@@ -28,7 +28,6 @@
     'summary': '',
     'depends': [
         'report_extended_account',
-        'l10n_ar_account',
         'l10n_ar_aeroo_base',
     ],
     'external_dependencies': {
@@ -39,7 +38,7 @@
     ],
     'demo': [
     ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }

@@ -28,7 +28,6 @@
     <!-- Iniciamos los key values sin update-->
     <function
         eval="([ref('action_aeroo_report_ar_stock_picking')])"
-        id="update_lines_ar_receipt"
         model="ir.actions.report"
         name="update_lines_that_apply"/>
 
@@ -54,7 +53,6 @@
     <!-- Iniciamos los key values sin update-->
     <function
         eval="([ref('action_aeroo_report_ar_stock_remito')])"
-        id="update_lines_ar_receipt"
         model="ir.actions.report"
         name="update_lines_that_apply"/>
 
