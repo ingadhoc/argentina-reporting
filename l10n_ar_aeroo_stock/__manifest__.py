@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Argentinian Like Stock Picking Aeroo Report',
-    'version': '12.0.1.0.0',
+    'version': '13.0.1.0.0',
     'category': 'Localization/Argentina',
     'sequence': 14,
     'author': 'ADHOC SA',
@@ -29,7 +29,7 @@
     'depends': [
         'report_extended_stock',
         'l10n_ar_aeroo_base',
-        'l10n_ar_account',
+        'l10n_ar',
     ],
     'external_dependencies': {
     },
@@ -41,7 +41,7 @@
     ],
     'test': [
     ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }
