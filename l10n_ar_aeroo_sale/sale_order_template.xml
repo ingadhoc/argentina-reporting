@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo noupdate="1">
-
-    <record id="sale.email_template_edi_sale" model="mail.template">
-        <field name="report_template" ref="l10n_ar_aeroo_sale.action_aeroo_report_ar_sale_order"/>
-    </record>
-
-</odoo>
